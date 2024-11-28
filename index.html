@@ -40,70 +40,6 @@
             <h1 class="text">Effective Solutions for Your Business</h1>
             <button type="button" class="bttn">Order Service</button>
             </div>
-            <div class="is-open modal-overlay">
-                <div class="modal">
-                  <div class="dv-bttn">
-                  <button class="mdl-bttn">
-                        <svg width="8" height="8">
-                            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-                        </svg>
-                  </button> 
-                  </div> 
-                  <p class="mdl-p">
-                    Leave your contacts and we will call you back
-                  </p>
-                  <form class="frm">
-                  <label>
-                    Name
-                    <div class="dv-inp">
-                        <div class="inp-img">
-                            <svg class="imgg" width="12" height="12">
-                                <use href="./images/icons.svg#icon-Vector"></use>
-                            </svg>
-                        </div>    
-                        <input class="inp" type="text" name="name"/>
-                    </div>
-                  </label>
-                  <label>
-                    Phone
-                    <div class="dv-inp">
-                        <div class="inp-img">
-                            <svg class="imgg" width="12" height="12">
-                                <use href="./images/icons.svg#icon-Vector-1"></use>
-                            </svg>
-                        </div>    
-                        <input class="inp" type="tel" name="phone"/>
-                    </div>
-                  </label>
-                  <label>
-                    Email
-                    <div class="dv-inp">
-                        <div class="inp-img">
-                            <svg class="imgg" width="12" height="12">
-                                <use href="./images/icons.svg#icon-Vector-2"></use>
-                            </svg>
-                        </div>    
-                        <input class="inp" type="email" name="email"/>
-                    </div>
-                  </label>
-                  <label>
-                    Comment
-                    <textarea class="txtr" name="comment" placeholder="Text input"> 
-                    </textarea>
-                  </label> 
-                  <label class="lbl">  
-                  <input class="chckbx" type="checkbox" name="consent" required/>
-                  <div>
-                    I accept the terms and conditions of the
-                    <a href="">Privacy Policy</a>
-                  </div>
-                  </label>
-                  <button class="mdl-bttnn">
-                    Send
-                  </button>
-                  </form>
-                </div>
-              </div>
         </section>
         <section class="second-section">
             <div class="container">
@@ -463,8 +399,10 @@
         </div>
         <div class="ftr-ddv">
             <p class="s-m-paragraph">Subscribe</p>
-            <div class="ftr-fpm">
+            <form class="ftr-frm">
+                <label class="lbl-npt">
                 <input class="frt-npt" type="email" name="emaail" placeholder="E-mail"/>
+                </label>
                 <button class="ftr-bttn">
                     <div class="icoon">
                     <svg class="icooon" width="24" height="20">
@@ -473,9 +411,73 @@
                     </div>
                     Subscribe
                 </button>
-            </div>
+            </form>
         </div>
         </div>
     </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+          <div class="dv-bttn">
+          <button class="mdl-bttn">
+                <svg width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+          </button> 
+          </div> 
+          <p class="mdl-p">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="frm">
+          <label>
+            Name
+            <div class="dv-inp">
+                <div class="inp-img">
+                    <svg class="imgg" width="12" height="12">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </div>    
+                <input class="inp" type="text" name="name"/>
+            </div>
+          </label>
+          <label>
+            Phone
+            <div class="dv-inp">
+                <div class="inp-img">
+                    <svg class="imgg" width="12" height="12">
+                        <use href="./images/icons.svg#icon-Vector-1"></use>
+                    </svg>
+                </div>    
+                <input class="inp" type="tel" name="phone"/>
+            </div>
+          </label>
+          <label>
+            Email
+            <div class="dv-inp">
+                <div class="inp-img">
+                    <svg class="imgg" width="12" height="12">
+                        <use href="./images/icons.svg#icon-Vector-2"></use>
+                    </svg>
+                </div>    
+                <input class="inp" type="email" name="email"/>
+            </div>
+          </label>
+          <label>
+            Comment
+            <textarea class="txtr" name="comment" placeholder="Text input"> 
+            </textarea>
+          </label> 
+          <label class="lbl">  
+          <input class="chckbx" type="checkbox" name="consent" required/>
+          <div>
+            I accept the terms and conditions of the
+            <a href="">Privacy Policy</a>
+          </div>
+          </label>
+          <button class="mdl-bttnn">
+            Send
+          </button>
+          </form>
+        </div>
+      </div>
 </body>
 </html>
