@@ -112,25 +112,12 @@ img {
 .link:hover,
 .link:focus,
 .nav-link:hover,
-.nav-link:focus,
-.text:hover,
-.text:focus,
-.footer-paragraph:hover,
-.footer-paragraph:focus,
-.ftr-bttn:hover,
-.ftr-bttn:focus,
-.frt-npt:hover,
-.frt-npt:focus,
-.s-m-paragraph:focus,
-.s-m-paragraph:hover,
-.mdl-p:hover,
-.mdl-p:focus,
-.mdl-bttnn:hover,
-.mdl-bttnn:focus,
-.lbl:hover,
-.lbl:focus {
-    text-decoration: underline;
-    text-decoration-color: #404bbf ;
+.nav-link:focus {
+    color: #404bbf ;
+}
+.svg-liink:hover,
+.svg-liink:focus {
+    background-color: #404bbf;
 }
 .first-section {
    background-color: #2E2F42;
@@ -186,18 +173,6 @@ img {
     text-align: center;
     text-transform: capitalize;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 .s-s-list {
     display: flex;
     gap: 24px;
@@ -569,7 +544,7 @@ input:focus + .imgg {
     justify-content: center; 
     fill: transparent;
 }
-input[type="checkbox"]:checked + .lbl + .spn { 
+input[type="checkbox"]:checked + .lbl .spn { 
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
