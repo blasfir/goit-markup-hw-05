@@ -557,11 +557,7 @@ input:focus + .imgg {
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.imggg {
-    fill: #2E2F42;
-}
-
-/*.spn {
+.spn {
     margin-right: 8px;
     width: 16px; 
     height: 16px; 
@@ -572,14 +568,12 @@ input:focus + .imgg {
     align-items: center; 
     justify-content: center; 
     fill: transparent;
-}*/
-/*
+}
 input[type="checkbox"]:checked + .lbl + .spn { 
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
 }
-    */
 .prvc {
     color: #4d5ae5;
 }
