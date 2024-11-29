@@ -527,7 +527,7 @@ img {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-input:focus .imgg {
+input:focus + .imgg {
     fill: #4D5AE5;
 }
 .dv-txtr {
@@ -568,7 +568,7 @@ input:focus .imgg {
     justify-content: center;
     fill: transparent;
 }
-input:checked .spn { 
+input:checked + .spn { 
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
