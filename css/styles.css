@@ -557,10 +557,6 @@ input:focus + .imgg {
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.chckbx {
-    width: 16px;
-    height: 16px;
-}
 .spn {
     width: 16px;
     height: 16px;
