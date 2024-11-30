@@ -544,7 +544,7 @@ input:focus + .imgg {
     justify-content: center; 
     fill: transparent;
 }
-input[type="checkbox"]:checked + .lbl .spn { 
+input:checked + .lbl .spn { 
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
