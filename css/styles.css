@@ -69,7 +69,7 @@ img {
     gap: 40px;
 }
 .nav-link {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
     padding: 24px 0;
     color: #2e2f42;
@@ -102,7 +102,7 @@ img {
     gap: 40px;
 }
 .link {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
@@ -131,7 +131,6 @@ img {
    margin: 0 auto;
 }
 .text {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -159,7 +158,11 @@ img {
     cursor: pointer;
 }
 .bttn:hover,
-.bttn:focus {
+.bttn:focus,
+.mdl-bttnn:hover,
+.mdl-bttnn:focus,
+.ftr-bttn:hover,
+.ftr-bttn:focus {
     background-color: #404BBF;
 }
 .second-section {
@@ -309,7 +312,6 @@ img {
     margin-right: 120px;
 }
 .footer-paragraph {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 264px;
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -325,7 +327,6 @@ img {
     color: #f4f4fd;
 }
 .s-m-paragraph {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -365,7 +366,6 @@ img {
     padding-left: 80px;
 }
 .frt-npt {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -382,7 +382,6 @@ img {
     color: #ffffff;
 }
 .ftr-bttn {
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -465,7 +464,6 @@ img {
     letter-spacing: 0.02em; 
     text-align: center; 
     color: #2e2f42; 
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .dv-inp {
     margin-bottom: 8px;
@@ -556,7 +554,6 @@ input:checked + .lbl .spn {
     display: block;
     min-width: 169px;
     cursor: pointer;
-    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
     border: none;
